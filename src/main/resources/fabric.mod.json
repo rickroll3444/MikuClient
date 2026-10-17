@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mikuclient",
+  "version": "${version}",
+  "name": "Hatsune Miku PvP Client",
+  "description": "A cyan-themed PvP HUD inspired by Hatsune Miku.",
+  "authors": ["MikuClient"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.miku.client.MikuClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
